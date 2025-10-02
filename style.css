@@ -51,18 +51,18 @@ body{
     margin-bottom: 5px;
 }
 
-@media(max-width: 760px) {
-    #wel-header{
-        font-size: 17px;
-        
-    }
+@media(max-width: 660px) {
     #welcome-page{
-        font-size: 12px;
+        width: 100%;
     }
-    #icon{
-        display: none;
+
+    #quiz-screen{
+        width: 100%;
+        height: auto;
     }
+
 }
+
 
 #home-para{
    margin-top: 23px;
@@ -98,7 +98,7 @@ body{
     left: 50%;
     color: black;
     transform: translate(-50%, -50%);
-    width: 40%;
+   
     border-radius: 9px;
     background-color: rgb(255, 255, 255);
     text-align: center;
