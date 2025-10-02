@@ -51,7 +51,7 @@ body{
     margin-bottom: 5px;
 }
 
-@media(max-width: 660px) {
+@media(max-width: 333px) {
     #welcome-page{
         width: 100%;
     }
@@ -171,3 +171,4 @@ h2{
 .button:hover{
     background-color: rgb(77, 77, 173);
 }
+
