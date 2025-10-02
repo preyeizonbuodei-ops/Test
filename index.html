@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="welcome-page" class="active">
+        <div id="items">
+            <div id="wel-header">
+            <h2 id="wel-header">Welcome To Our Quiz Game</h2>
+        </div>
+        <p id="home-para">Test Your Knowledge With this Fun Questions <span id="icon">😁</span></p>
+        <button id="start-btn">Start Quiz</button>
+        </div>
+        
+    </div>
+
+    <div id="quiz-screen" class="disabled" >
+        <div id="qustions">
+            <h2>Your Quiz</h2>
+            <p id="set-question">Your Question Stays Here</p>
+            <div id="info-bar">
+                <p id="question-update">Question <span id="crrnt-qust">1</span> of <span id="total-quest">8</span></p>
+
+                <p id="score">score <span id="score-span">0</span></p>
+            </div>
+
+            <div id="question-area" >
+
+            </div>
+
+            <div id="progress"></div>
+        </div>
+    </div>
+
+    <div id="result-screen" class="disabled" >
+        <h2 id="remark">This Is Your Quiz Remark!</h2>
+        <p id="score-remark">You Scored <span id="total-score">0</span></p>
+        <h3 id="main-remark"></h3>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
